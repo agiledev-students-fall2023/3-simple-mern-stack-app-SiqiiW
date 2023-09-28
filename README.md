@@ -15,7 +15,7 @@ To complete this exercise:
 When you have completed the exercise, leave your local copy of the app running, enter the public link to it here, and push your code changes to GitHub:
 
 ```
-https://3e2c-216-165-95-176.ngrok-free.app
+https://de77-216-165-95-167.ngrok-free.app 
 ```
 
 ## How to launch the app
@@ -34,7 +34,7 @@ https://3e2c-216-165-95-176.ngrok-free.app
 
 The back-end code will integrate with this database. However, it may be occasionally useful interact with the database directly from the command line:
 
-- connect to the database server from the command line: `docker exec -ti mongodb_dockerhub mongo -u admin -p secret`
+- connect to the database server from the command line: `docker exec -ti mongodb_dockerhub mongosh -u admin -p secret`
 - show the available databases: `show dbs`
 - select the database used by this app: `use example-mern-stack-app`
 - show the documents stored in the `messages` collection: `db.messages.find()` - this will be empty at first, but will later be populated by the app.

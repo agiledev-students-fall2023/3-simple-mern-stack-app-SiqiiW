@@ -10,13 +10,13 @@ const AboutUs = () => (
     <img src="/photo-single.jpg" 
     alt="Me" 
     style={{
-    width: "150px", // or whatever width you want
-    height: "auto"  // maintain the aspect ratio
+    width: "150px", 
+    height: "auto"  
   }}
 />
 
   </div>
 );
 
-
 export default AboutUs;
+

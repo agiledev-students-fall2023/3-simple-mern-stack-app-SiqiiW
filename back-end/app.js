@@ -78,5 +78,14 @@ app.post('/messages/save', async (req, res) => {
   }
 })
 
+app.get('/about', async (req, res) => {
+    const aboutUsData = {
+      about: 'Hi! My name is Siqi Wang and I am a senior student majoring in CS/Math joint.',
+      pictureUrl: 'http://localhost:7002/photo-single.jpg'
+    };
+    res.json(aboutUsData);
+});
+
+
 // export the express app we created to make it available to other modules
 module.exports = app // CommonJS export style!
